@@ -3298,7 +3298,13 @@ input, select, textarea {
 					font-size: 0.9em;
 				}
 
-		@media screen and (max-width: 736px) {
+
+        /* --------------------------------------------
+         * KC: hide the nav bar when max-width < 736px
+         *
+         * this website was designed for single-page veiw
+         */
+		/* @media screen and (max-width: 736px) {
 
 			#nav {
 				display: none;
@@ -3308,7 +3314,7 @@ input, select, textarea {
 					padding-top: 0;
 				}
 
-		}
+		} */
 
 /* Main */
 
