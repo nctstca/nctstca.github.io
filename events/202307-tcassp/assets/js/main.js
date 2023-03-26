@@ -28,7 +28,7 @@
 		});
 
     // Table
-    // $body.ready(function(){
+    $body.ready(function(){
       $("tr").click(function() {
           $(this).find("div[class*='info']").addClass('show');
           $(this).siblings().find("div[class*='info']").removeClass('show');
