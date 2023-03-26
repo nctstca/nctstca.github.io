@@ -2713,6 +2713,13 @@ input, select, textarea {
 			text-align: left;
 		}
 
+        .info {
+            display: none;
+        }
+        .show {
+            display: block;
+        }
+
 		table thead {
 			border-bottom: solid 2px;
 		}
@@ -2746,6 +2753,7 @@ input, select, textarea {
 			table.alt tfoot {
 				border-top: 0;
 			}
+
 
 	table tbody tr {
 		border-color: rgba(255, 255, 255, 0.35);

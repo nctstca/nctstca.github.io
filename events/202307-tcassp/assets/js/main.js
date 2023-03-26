@@ -27,6 +27,14 @@
 			}, 100);
 		});
 
+    // Table
+    // $body.ready(function(){
+      $("tr").click(function() {
+          $(this).find("div[class*='info']").addClass('show');
+          $(this).siblings().find("div[class*='info']").removeClass('show');
+      });
+    });
+
 	// Nav.
 		var $nav = $('#nav');
 
