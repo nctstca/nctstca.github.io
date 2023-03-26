@@ -32,6 +32,8 @@
       $("tr").click(function() {
           $(this).find("div[class*='info']").addClass('show');
           $(this).siblings().find("div[class*='info']").removeClass('show');
+          $(this).find("div[class*='close']").removeClass('show_close');
+          $(this).siblings().find("div[class*='close']").addClass('show_close');
       });
     });
 

@@ -2697,7 +2697,7 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px;
+			border-top: solid 1px;
 			border-left: 0;
 			border-right: 0;
 		}
@@ -2718,6 +2718,13 @@ input, select, textarea {
         }
         .show {
             display: block;
+        }
+
+        .close {
+            display : none;
+        }
+        .show_close {
+            display : block;
         }
 
 		table thead {
